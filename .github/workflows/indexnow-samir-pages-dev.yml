@@ -1,8 +1,6 @@
 name: 'IndexNow Pages'
-on:
-  schedule:
-    # Set the schedule time
-    - cron: '0 2 * * *'
+on: [push]
+
 
 jobs:
   check-and-submit:
