@@ -10,6 +10,6 @@ jobs:
     steps:
       - name: indexnow-action
         uses: bojieyang/indexnow-action@v1
-        with:
+        with: 
           sitemap-location: 'https://samirpaul.in/sitemap.xml'
           key: ${{ secrets.INDEXNOW_KEY }}
